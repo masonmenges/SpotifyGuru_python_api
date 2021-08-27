@@ -20,4 +20,4 @@ async def suggestions():
     return json.dumps(suggestions), 200
 
 
-app.run(port=2000)
+app.run(port=80, host='0.0.0.0')
